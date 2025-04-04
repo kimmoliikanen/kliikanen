@@ -13,3 +13,8 @@ Tässä on Kimmon tehtäväpalautukset. Alta löydät linkin eri viikkojen palau
 
 - [Viikko 1](viikko1/index.html)
 - [Viikko 2](viikko2/index.md)
+- [Viikko 3](viikko3)
+- [Viikko 4](viikko4)
+- [Viikko 5](viikko5)
+- [Viikko 6](viikko6)
+- [Harjoitustyö](harjoitustyo)
