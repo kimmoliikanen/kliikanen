@@ -7,6 +7,8 @@ layout: default
 
 ## 2.1. Jekyll-teema
 Muunna GitHub Pages -sivustosi niin, että HTML-sivujen sijaan käytetään md-tiedostoja ja Jekyll-teemaa. Voit käyttää Jekyll-teemaa helposti lisäämällä `_config.yml` -tiedostoon teeman nimen. Esimerkiksi:
+yml
+theme: jekyll-cayman
 
 ## 2.2.
 
