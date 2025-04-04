@@ -5,16 +5,6 @@ layout: default
 
 # Tehtävä 2: Jekyll-teema ja CI/CD
 
-## 2.1. Jekyll-teema
-Muunna GitHub Pages -sivustosi niin, että HTML-sivujen sijaan käytetään md-tiedostoja ja Jekyll-teemaa. Voit käyttää Jekyll-teemaa helposti lisäämällä `_config.yml` -tiedostoon teeman nimen. Esimerkiksi:
-yml
-theme: jekyll-cayman
-
-## 2.2.
-
-Linkkilista etusivulla
-
-## 2.3
 
 Jekyll-sivuston automaatio voidaan toteuttaa Github Actions-toiminnon avulla. Github Actions mahdollistaa CI/CD-putkistojen luomisen, ja sitä voi  käyttää automatisoimaan esimerkiksi sivuston luomisen tai julkaisuprosessin. Tämä olisi erityisen kätevää, kun sivustolle tehdään usein päivityksiä, sillä Github Actions voi automatisoida kaikki vaiheet koodin versionhallinnastas sen julkaisemiseen. 
 
