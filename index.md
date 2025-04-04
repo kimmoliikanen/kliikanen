@@ -11,5 +11,5 @@ Tässä on Kimmon tehtäväpalautukset. Alta löydät linkin eri viikkojen palau
 
 ## Tehtäväpalautukset
 
-- [Viikko 1](viikko1/index.html)
-- [Viikko 2](viikko2/index.md)
+- [Viikko 1](viikko 1/index.html)
+- [Viikko 2](viikko 2/index.md)
