@@ -3,11 +3,9 @@ title: Github Pages
 layout: default
 ---
 
-# Tervetuloa Github Pages-sivustolleni!
+# Tervetuloa Github Pages-sivustolleni
 
-Tämä on ensimmäinen Github-teksti.
-
-Tässä on Kimmon tehtäväpalautukset. Alta löydät linkin eri viikkojen palautuksiin.
+Täältä löytyvät tehtäväpalautukset. Alta löydät linkin eri viikkojen tehtäväpalautuksiin.
 
 ## Tehtäväpalautukset
 
