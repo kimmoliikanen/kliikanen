@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    console.log('Viesti efektifunktiosta')
+  });
+
+  const handleClick = useCallback<React.MouseEventHandler<HTMLButtonElement>>((event) => {
+    console.log('Nappi painettu: (' + event.pageX + ', ' + event.pageY + ')');
+    setCount((count) => count + 1);
+  }, [setCount]);
 
   return (
     <>
@@ -18,7 +27,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={(handleClick)}>
           count is {count}
         </button>
         <p>
