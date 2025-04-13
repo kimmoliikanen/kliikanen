@@ -3,7 +3,7 @@ title: Github Pages
 layout: default
 ---
 
-# Tervetuloa Github Pages-sivustolleni
+# Tervetuloa Github Pages-sivulleni
 
 Täältä löytyvät tehtäväpalautukset. Alta löydät linkin eri viikkojen tehtäväpalautuksiin.
 
