@@ -23,9 +23,8 @@ function App() {
           count is {count}
         </button>
         <div className="App">
-      <h1>Login to Firebase</h1>
-      <LoginForm />
-      </div>
+        <LoginForm />
+        </div>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
