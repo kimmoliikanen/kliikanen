@@ -1,11 +1,52 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import LoginForm from './LoginForm'; 
+import ProductList from './ProductList';
 
 function App() {
-  const [count, setCount] = useState(0)
+  //asetetaan cookie
+  const setCookie = (name: string, value: string, days: number) => {
+    const expires = new Date(Date.now() + days * 864e5).toUTCString();
+    document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/`;
+  };
+
+  //luetaan cookie
+  const getCookie = (name: string): number | 0 => {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) {
+      const num = parseInt(decodeURIComponent(parts.pop()?.split(';').shift() || ''), 10);
+      return num;
+    }
+    return 0;
+  };
+
+  const [count, setCount] = useState(getCookie('Count') | 0 )
+
+  const handleClick = useCallback<React.MouseEventHandler<HTMLButtonElement>>((event) => {
+    console.log('Nappi painettu: (' + event.pageX + ', ' + event.pageY + ')');
+    setCount((count)) => count + 1);
+    setCookie('Count', "" + (count + 1), 1);
+  }, [setCookie]);
+
+  useEffect(() => {  
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    const d=document, g=d.createElement('script'), s: HTMLScriptElement=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://pilvipalvelut-matomo.2.rahtiapp.fi/js/container_{{omakoodi}}.js'; 
+    if (s && s.parentNode) {
+      s.parentNode.insertBefore(g,s);
+    }
+  }, []);
+
+    return (
+        <div>
+            <h1>Hello World</h1>
+        </div>
+    )
+   }
 
   return (
     <>

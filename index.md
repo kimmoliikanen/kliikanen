@@ -13,6 +13,6 @@ Täältä löytyvät tehtäväpalautukset. Alta löydät linkin eri viikkojen te
 - [Viikko 2](viikko2/index.md)
 - [Viikko 3](viikko3/index.html)
 - [Viikko 4](viikko_4/index.html)
-- [Viikko 5](viikko5)
+- [Viikko 5](viikko5/index.md)
 - [Viikko 6](viikko6)
 - [Harjoitustyö](harjoitustyo)
