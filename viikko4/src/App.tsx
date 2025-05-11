@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import LoginForm from './LoginForm'; 
 import ProductList from './ProductList';
+import MatomoApi from './MatomoApi';
 
 function App() {
   // Cookie-asetukset
@@ -61,9 +62,9 @@ function App() {
           <LoginForm />
           <ProductList />
         </div>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <div>
+          <MatomoApi />
+        </div>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
