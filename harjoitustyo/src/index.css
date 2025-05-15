@@ -1,0 +1,152 @@
+
+/* Weather-sovelluksen tyylit */
+
+.weather-container {
+  max-width: 500px;
+  margin-top: 10px auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.city-input {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.fetch-button {
+   margin-top: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+
+.weather-box {
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.tip-box {
+  background: #fff3cd;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 16px;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.tip-button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tip-button:hover {
+  background: #0056b3;
+}
+
+.tip-text {
+  margin-top: 15px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.error-text {
+  margin-top: 20px;
+  color: red;
+}
+
+/* Pääasettelu koko sovellukselle */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff; 
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Yläpalkki */
+.header {
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+
+/* Pääsisältö */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Laskurin painike */
+.counter-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: #0056b3;
+}
+
+/* Alapalkki */
+.footer {
+  background-color: #f8f5f5;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+  margin-top: auto;
+}
