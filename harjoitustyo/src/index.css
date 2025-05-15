@@ -332,3 +332,69 @@
   margin-top: 4px;
   color: black; /* ← tämä varmistaa että myös kuvausteksti on musta */
 }
+
+/* Responsiivisuus pienille näytöille */
+@media (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .header-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .header-content nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .weather-container {
+    margin-top: 20px;
+    padding: 16px;
+  }
+
+  .fetch-button,
+  .tip-button,
+  .nav-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .login-container {
+    padding: 24px;
+  }
+
+  .cookie-banner {
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .cookie-banner button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .main-content {
+    padding: 12px;
+  }
+
+  .kauppalista {
+    padding: 12px;
+  }
+
+  .kauppa {
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+}

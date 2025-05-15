@@ -1,4 +1,4 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, Navigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Weather from './Weather';
 import Kauppalista from './Kauppalista'; 
@@ -50,6 +50,8 @@ function App() {
         
           <Route path="/login" element={<LoginPage />} />
           <Route path="/kaupat" element={<Kauppalista />} />
+          <Route path="*" element={<Navigate to="/" />} />
+
         </Routes>
       </main>
 
