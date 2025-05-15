@@ -12,9 +12,9 @@ const Weather = () => {
     } else if (temp < 0) {
       return "Pue lämpimästi: toppahaalari ja hanskat!";
     } else if (temp >= 0 && temp < 10) {
-      return "Kevythaalari ja pipo sopivat hyvin.";
+      return "Kevyt haalari ja pipo sopivat hyvin.";
     } else if (temp >= 10 && temp < 20) {
-      return "Kevyttakki ja collegehousut riittävät.";
+      return "Kevyt takki ja collegehousut riittävät.";
     } else {
       return "T-paita ja shortsit riittävät – muista aurinkorasva!";
     }
@@ -62,7 +62,7 @@ const Weather = () => {
 
           {!showTip && (
             <button onClick={() => setShowTip(true)} className="tip-button">
-              Hae pukeutumisvinkki
+              Pukeutumisvinkki
             </button>
           )}
 
