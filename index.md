@@ -9,7 +9,7 @@ Täältä löytyvät tehtäväpalautukset. Alta löydät linkin eri viikkojen te
 
 ## Tehtäväpalautukset
 
-- [Harjoitustyö](harjoitustyo1/index.html)
+- [Harjoitustyö](harjoitustyo123/index.html)
 - [Viikko 1](viikko1/index.html)
 - [Viikko 2](viikko2/index.md)
 - [Viikko 3](viikko3/index.html)
