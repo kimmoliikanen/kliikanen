@@ -137,23 +137,6 @@
   padding: 20px;
 }
 
-/* Laskurin painike */
-.counter-button {
-  display: none;
-  margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 12px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.counter-button:hover {
-  background-color: #0056b3;
-}
-
 /* Alapalkki */
 .footer {
   background-color: #f8f5f5;

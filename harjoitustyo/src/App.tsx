@@ -7,7 +7,7 @@ import LoginPage from './LoginPage';
 
 
 function App() {
-  const [count, setCount] = useState(0);
+
   const [showCookieBanner, setShowCookieBanner] = useState(false);
 
   useEffect(() => {
@@ -42,9 +42,6 @@ function App() {
           <Route path="/" element={
             <>
               <Weather />
-              <button className="counter-button" onClick={() => setCount(count + 1)}>
-                count is {count}
-              </button>
             </>
           } />
         
