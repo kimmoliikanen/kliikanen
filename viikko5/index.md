@@ -1,6 +1,7 @@
 ---
 title: Viikko 5 - Matomo ja analytiikan hyödyntäminen
 layout: default
+nav_order: 7
 ---
 
 ## Viikko 5 - Analytiikan hyödyntäminen

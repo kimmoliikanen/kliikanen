@@ -1,6 +1,7 @@
 ---
 title: Viikko 2 - Jekyll ja CI/CD
 layout: default
+nav_order: 4
 ---
 
 # Tehtävä 2: Jekyll-teema ja CI/CD
