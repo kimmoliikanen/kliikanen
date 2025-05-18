@@ -1,5 +1,5 @@
 ---
-title: Viikko 5 - Matomo ja analytiikan hyödyntäminen
+title: Viikko 5 - Matomo + Cookie lisätty sovellukseen
 layout: default
 nav_order: 7
 ---
