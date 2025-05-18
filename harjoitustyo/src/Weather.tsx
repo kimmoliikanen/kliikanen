@@ -23,7 +23,7 @@ const Weather = () => {
   const fetchWeather = async () => {
     setLoading(true);
     setShowTip(false);
-    const apiKey = 'f9d6b894757f57fcfd3e38e5874acc2d';
+   const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=fi`;
 
     try {
