@@ -1,5 +1,5 @@
 ---
-title: Tehtävä 2 - Jekyll ja CI/CD
+title: Viikko 2 - Jekyll ja CI/CD
 layout: default
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Etusivu
 layout: default
+nav_order: 1
 ---
 
 # Tervetuloa Kimmon Github pages-sivulle
