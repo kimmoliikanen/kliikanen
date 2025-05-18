@@ -49,6 +49,7 @@ function App() {
           <Route path="/kaupat" element={<Kauppalista />} />
           <Route path="*" element={<Navigate to="/" />} />
 
+        
         </Routes>
       </main>
 
