@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Harjoitustyö
-permalink: /lopputyo/
+permalink: /testausraportti/
 ---
 
 # Harjoitustyö – Pukeutumisvinkki päiväkotiin
