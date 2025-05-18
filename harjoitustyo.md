@@ -12,7 +12,7 @@ Tämä sovellus tarjoaa pukeutumisvinkkejä päiväkoti-ikäisille lapsille peru
 - **React + TypeScript**
 - **Firebase Auth** (kirjautuminen)
 - **Firestore** (vinkit lastenvaateliikkeistä)
-- **CSS** (responiivinen ulkoasu)
+- **CSS** (responsiivinen ulkoasu)
 - **LocalStorage** (käyttäjän tallennukset)
 - **GitHub Pages** (julkaisu)
 

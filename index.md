@@ -1,9 +1,9 @@
 ---
-title: Kimmon sivusto
+title: Etusivu
 layout: default
 ---
 
-# Tervetuloa Github Pages-sivulleni
+# Tervetuloa Kimmon Github pages-sivulle
 
 Täältä löytyvät tehtäväpalautukset. Alta löydät linkin eri viikkojen tehtäväpalautuksiin.
 
